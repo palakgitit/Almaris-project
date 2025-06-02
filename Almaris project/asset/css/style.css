@@ -1,0 +1,70 @@
+a{
+    text-decoration: none;
+
+}
+ul{
+    list-style: none;
+}
+
+.blue li :hover{
+
+    color:rgb(105, 158, 204) ;
+}
+
+.blue li a :hover{
+
+    
+    color:rgb(105, 158, 204) ;
+}
+
+:root{
+
+    --btn-primary:#AB8965;
+    --btn-hover:#a6845f;
+    --font-jost:'Jost';
+
+}
+
+.btn-primary{
+
+    background-color: transparent;
+    
+}
+
+.btn-primary:hover{
+
+    background-color: var(--btn-hover);
+    border: var(--btn-primary);
+}
+
+.logo {
+
+    width: 180px;
+}
+/*   menu-bar setting  */
+.menu-bar{
+
+    font-size: 18px;
+
+}
+
+.menu-bar ul  li a:hover{
+
+    color: cadetblue;
+}
+/*  font */
+.font-jost{
+
+    font-family: var(--font-jost);
+}
+
+/*  z-index of the background */
+body{
+    z-index: 7;
+}
+
+#carousel-bg{
+    z-index: -1;
+}
+
+
