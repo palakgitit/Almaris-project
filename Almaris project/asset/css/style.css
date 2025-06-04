@@ -1,6 +1,7 @@
-a{
-    text-decoration: none;
 
+body a{
+
+    text-decoration: none;
 }
 ul{
     list-style: none;
@@ -19,22 +20,64 @@ ul{
 
 :root{
 
-    --btn-primary:#AB8965;
-    --btn-hover:#a6845f;
+    --bs-primary:#AB8965;
+    --bs-hover:#a6845f;
     --font-jost:'Jost';
-
-}
-
-.btn-primary{
-
-    background-color: transparent;
+    --primary-color: #AB8965;
+}   
+#carouselExampleSlidesOnly{
+    z-index: -1;
+   
     
 }
+.top{
 
-.btn-primary:hover{
+    top: 90px;
+}
 
-    background-color: var(--btn-hover);
-    border: var(--btn-primary);
+.container-100{
+
+    width: auto;
+}
+.container-ab{
+
+    width: 1320px !important;
+}
+
+
+.start{
+
+    transform: translate(225px,5px);
+}
+
+.navigation-bar{
+    top: 120px;
+}
+
+.z-2{
+
+    z-index: -1;
+}
+
+.reservation{
+    
+   
+}
+.bs-primary {
+  background-color: transparent;
+  width: 155px;
+  border: 1px solid;
+  border-color: #fffcfa;
+}
+
+.bs-primary:hover {
+  background-color: #967755;
+  border-color: #856b4a;
+}
+
+.color-primary{
+
+    color:var(--primary-color);
 }
 
 .logo {
@@ -45,7 +88,6 @@ ul{
 .menu-bar{
 
     font-size: 18px;
-
 }
 
 .menu-bar ul  li a:hover{
@@ -63,8 +105,40 @@ body{
     z-index: 7;
 }
 
-#carousel-bg{
-    z-index: -1;
+.form-date input{
+
+    background-color: transparent;
+    outline: none;
+    border: none;
 }
+.form-date #count{
+
+    border: 1px solid #ffffff47;
+    border-radius: 5px;
+    width: 70px;
+    margin-top: 2px;
+}
+
+.submission .btn-primary{
+
+    transition: all 0.2s;
+}
+
+.black-dim {
+    background-color: rgba(0, 0, 0, 0.671);
+    z-index: 3;
+}
+
+.shape-slider{
+
+    width: 100px;
+    border-top-left-radius: 50px;
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
 
 
