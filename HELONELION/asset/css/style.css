@@ -1,0 +1,66 @@
+.brown{
+
+    background-color: #A56F24;
+}
+
+.jost{
+    font-family: var(--jost-font);
+}
+.oswald{
+    font-family: var(--oswald-font);
+}
+.courier{
+    font-family: var(--courier);
+}
+.black{
+    color: var(--black);
+}
+.dull-white{
+    background-color: var(--white-dull);
+}
+
+.font-70{
+
+    font-size: 70px;
+}
+.font-20{
+
+    font-size: 20px;
+}
+
+.shop-btn{
+
+    width: 120px;
+    background-color:  #aa762cc5;
+    padding: 15px;
+}
+.shop-btn:hover{
+
+    background-color: #a56f24dc;
+}
+.shop-btn:focus{
+
+    background-color: #aa762c;
+}
+
+:root{
+    --jost-font: 'Jost';
+    --oswald-font:'Oswald' ;
+    --courier: 'Courier Prime';
+    --brown:#A56F24;
+    --white-dull:#F7F7F7;
+    --black:#080A0A;
+}
+ul,ol{
+
+    list-style: none;
+}
+body a{
+    text-decoration: none;
+    color: black;
+}
+
+.width{
+
+    width: auto;
+}
